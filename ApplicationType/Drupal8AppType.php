@@ -5,8 +5,8 @@ namespace DigipolisGent\Domainator9k\AppTypes\DrupalEightBundle\ApplicationType;
 use DigipolisGent\Domainator9k\CoreBundle\Entity\BaseAppType;
 use DigipolisGent\Domainator9k\AppTypes\DrupalEightBundle\Entity\DrupalEightSettings;
 use DigipolisGent\Domainator9k\AppTypes\DrupalEightBundle\Form\DrupalEightSettingsType;
-use Digip\DeployBundle\Entity\Settings;
-use Digip\DeployBundle\Entity\AppEnvironment;
+use DigipolisGent\Domainator9k\CoreBundle\Entity\Settings;
+use DigipolisGent\Domainator9k\CoreBundle\Entity\AppEnvironment;
 
 class Drupal8AppType extends BaseAppType
 {
