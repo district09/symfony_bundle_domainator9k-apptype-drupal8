@@ -1,5 +1,0 @@
-services:
-    digip_deploy.application_type.drupal8:
-        class: DigipolisGent\Domainator9k\AppTypes\DrupalEightBundle\ApplicationType\Drupal8AppType
-        tags:
-            - { name: digip_deploy.type, slug: 'drupal8' }
