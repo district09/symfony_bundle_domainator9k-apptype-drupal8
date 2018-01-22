@@ -28,7 +28,7 @@ class DrupalEightApplication extends AbstractApplication
     protected $installProfile;
 
 
-    public function getType()
+    public static function getType()
     {
         return self::TYPE;
     }
