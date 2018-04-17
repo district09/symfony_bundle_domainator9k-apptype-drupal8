@@ -24,7 +24,7 @@ class DrupalEightApplication extends AbstractApplication
      * @var string
      * @ORM\Column(type="string", nullable=true)
      * @Assert\NotBlank()
-     * @Assert\Length(min="3", max="255")
+     * @Assert\Length(min="2", max="255")
      */
     protected $installProfile;
 
