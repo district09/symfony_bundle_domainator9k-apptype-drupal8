@@ -48,7 +48,7 @@ class DrupalEightApplication extends AbstractApplication
     /**
      * @return string
      */
-    public function getInstallProfile()
+    public function getInstallProfile(): ?string
     {
         return $this->installProfile;
     }
@@ -61,14 +61,4 @@ class DrupalEightApplication extends AbstractApplication
         $this->installProfile = $installProfile;
     }
 
-    /**
-     * @return array
-     */
-    public static function getTemplateReplacements(): array
-    {
-        $templateReplacements = parent::getTemplateReplacements();
-        $templateReplacements['installProfile()'] = 'getInstallProfile()';
-
-        return $templateReplacements;
-    }
 }
