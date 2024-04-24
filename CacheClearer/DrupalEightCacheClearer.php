@@ -15,7 +15,7 @@ class DrupalEightCacheClearer implements CacheClearerInterface
     public function clearCache($object, CliInterface $cli)
     {
         return $cli->execute(
-            CommandBuilder::create('drush')
+            CommandBuilder::create('../vendor/bin/drush')
                 ->addArgument('cr')
         );
     }
