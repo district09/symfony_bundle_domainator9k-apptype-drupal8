@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DigipolisGent\\Domainator9k\\AppTypes\\DrupalEightBundle\\": ""
+      "DigipolisGent\\Domainator9k\\AppTypes\\DrupalEightBundle\\": "src"
     }
   }
 }
